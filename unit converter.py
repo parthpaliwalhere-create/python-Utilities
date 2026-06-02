@@ -62,10 +62,10 @@ def le():
         print("meter : ", d / 100)
     if ppo == "3":
         d = float(input("meter value : "))
-        print("meter : ",d * 1000)
+        print("kelometer : ",d / 1000)
     if ppo=="4":
-        d = float(input("km value : "))
-        print("meter : ",d / 1000)
+        d = float(input("kelometer value : "))
+        print("meter : ",d * 1000)
 
 print()
 def te():
@@ -112,7 +112,7 @@ def ru():
     op="Rupees to Dollar"
     print(op.center(22))
     d=float(input("Enter amount : "))
-    print(d/90.38," : dollars")
+    print(d/96," : dollars")
     
 hedder(title)
 main_menu()
@@ -124,29 +124,3 @@ if o =="yes":
 else:
     time.sleep(1)
     exit()
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
