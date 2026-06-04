@@ -6,7 +6,7 @@ This repository contains beginner-friendly Python utility programs and calculato
 
 * 📏 Unit Converter
 * 🔐 Password Generator
-* ⚡ Advanced Calculator
+* ⚡ Calculator
 
 ## Features
 
